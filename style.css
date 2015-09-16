@@ -1,0 +1,32 @@
+ul {
+  list-style-type: none;
+}
+
+h1, h2 {
+  color: red;
+}
+
+h2 {
+  border-bottom: 1px solid #000;
+}
+
+.clear-float {
+  clear: both;
+}
+
+#h1 {
+  float: left;
+}
+
+#contact {
+  display: none;
+}
+
+#contact ~ ul {
+  /* float: right; */
+  background-color: blue;
+}
+
+#contact ~ ul > li {
+  display: inline;
+}
